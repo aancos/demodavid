@@ -9,7 +9,7 @@
 }
 @Metadata.allowExtensions: true
 define view entity Z04_C_ALUMNOS as select from Z04_R_ALUMNOS
-    association [0..1] to ZC_04CIUDADES as _Ciudad on $projection.IdCiudad = _Ciudad.ID
+    association [0..1] to Z04_C_CIUDADES as _Ciudad on $projection.IdCiudad = _Ciudad.Id
 {
     key Id,
     Nombre,
