@@ -1,0 +1,4 @@
+@EndUserText.label: 'Servicio Alumnos'
+define service Z04_S_ALUMNOS {
+  expose Z04_C_ALUMNOS;
+}

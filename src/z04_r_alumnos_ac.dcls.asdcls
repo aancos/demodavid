@@ -1,0 +1,11 @@
+@EndUserText.label: 'Access control de alumnos'
+@MappingRole: true
+define role Z04_R_ALUMNOS_AC {
+    grant
+        select
+            on
+                Z04_R_ALUMNOS
+                    where
+                        Edad > 30;
+                        
+}

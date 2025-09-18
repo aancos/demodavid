@@ -1,0 +1,4 @@
+@EndUserText.label: 'Servicio CIudades'
+define service Z04_S_CIUDADES {
+  expose Z04_C_CIUDADES;
+}

@@ -1,0 +1,11 @@
+@EndUserText.label: 'Access control de alumnos'
+@MappingRole: true
+define role Z04_C_ALUMNOS_AC {
+    grant
+        select
+            on
+                Z04_C_ALUMNOS
+                    where
+                        inheriting conditions from entity Z04_R_ALUMNOS;
+                        
+}
