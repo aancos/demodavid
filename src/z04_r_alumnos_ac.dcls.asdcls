@@ -6,6 +6,6 @@ define role Z04_R_ALUMNOS_AC {
             on
                 Z04_R_ALUMNOS
                     where
-                        Edad > 30;
+                        Edad > 0;
                         
 }
